@@ -1,0 +1,20 @@
+<mod>
+    <name>Armory</name>
+    <description>"This here is some top military hardware!"
+
+________________________________________________________________________________________________________________________
+
+Adds a Sniper Rifle for fabrication.
+Makes the default SMG a real auto fire weapon.
+
+________________________________________________________________________________________________________________________
+
+Created 2021 by Frederoo for Game-Version Alpha 0.11.0.
+________________________________________________________________________________________________________________________
+
+    </description>
+    <minimumLoaderVersion>0.8.0</minimumLoaderVersion>
+    <gameVersions>
+        <v>0.11.0</v>
+    </gameVersions>
+</mod>

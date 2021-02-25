@@ -1,0 +1,14 @@
+<Patch>
+  <Operation Class="AttributeSet">
+    <!-- full-auto SMG shots -->
+    <xpath>/data/Item/item[@mid="728"]/weapon/gunModes/l[@type="BurstShot"]</xpath>
+    <attribute>shots</attribute>
+    <value>9</value>
+  </Operation>
+  <Operation Class="AttributeSet">
+    <!-- full-auto SMG cooldown -->
+    <xpath>/data/Item/item[@mid="728"]/weapon/gunModes/l[@type="BurstShot"]</xpath>
+    <attribute>afterCool</attribute>
+    <value>1.7</value>
+  </Operation>
+</Patch>

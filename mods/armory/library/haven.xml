@@ -1,0 +1,112 @@
+<data>
+	<Item>
+		<item _name="Sniper Rifle" mid="725000" eid="0" handness="TwoHand">
+			<name tid="508000"/>
+			<desc tid="509000"/>
+			<anims>
+				<l type="ItemSingleOffseted" offX="-1" offY="-2" inFront="true" leftArmInFront="true" leftBehindItem="false" rightArmInFront="false" rightBehindItem="false" dir="D1" useFlipped="false">
+					<animation aid="rifle1-3"/>
+				</l>
+				<l type="ItemSingleOffseted" offX="2" offY="0" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="false" rightBehindItem="false" dir="D6" useFlipped="true">
+					<animation aid="rifle1-2"/>
+				</l>
+				<l type="ItemSingleOffseted" offX="-4" offY="-4" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="false" rightBehindItem="false" dir="D2" useFlipped="true">
+					<animation aid="rifle1-6"/>
+				</l>
+				<l type="ItemSingleOffseted" offX="6" offY="-5" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" dir="D3" useFlipped="false">
+					<animation aid="rifle1-1"/>
+				</l>
+				<l type="ItemSingleOffseted" offX="3" offY="-7" inFront="false" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" dir="D9" useFlipped="true">
+					<animation aid="rifle1-7"/>
+				</l>
+				<l type="ItemSingleOffseted" offX="-3" offY="-2" inFront="false" leftArmInFront="true" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" dir="D8" useFlipped="true">
+					<animation aid="rifle1-6"/>
+				</l>
+			</anims>
+			<fabricateable cat="Weapons">
+				<GUIAnim aid="rifle1inv"/>
+				<cost type="Defined" partsPerTile="1" buildTools="0">
+					<resources>
+						<l element="1922" howMuch="1" consumeEvery="1"/>
+						<l element="175" howMuch="1" consumeEvery="1"/>
+					</resources>
+					<difficultyLevel skill="Construction" level="3"/>
+				</cost>
+			</fabricateable>
+			<weapon id="0" type="Gun" gunType="Rifle" fullLight="true" speed="20">
+				<flare>
+					<flareProjectile aid="smallProjectile1"/>
+					<flareEffect effect="718"/>
+				</flare>
+				<gunModes>
+					<l type="AimedShot" accuracy="95" preCool="0.7" afterCool="0.7" defMode="true"/>
+					<l type="SnapShot" accuracy="70" preCool="0.05" afterCool="0.7" defMode="false"/>
+				</gunModes>
+				<weaponAnims>
+					<l type="ItemSingle" inFront="false" leftArmInFront="true" leftBehindItem="false" rightArmInFront="false" rightBehindItem="false" dir="D1" useFlipped="false">
+						<animation aid="rifle1-1"/>
+					</l>
+					<l type="ItemSingle" inFront="true" leftArmInFront="true" leftBehindItem="false" rightArmInFront="false" rightBehindItem="false" dir="D2" useFlipped="false">
+						<animation aid="rifle1-2"/>
+					</l>
+					<l type="ItemSingle" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" dir="D3" useFlipped="false">
+						<animation aid="rifle1-3"/>
+					</l>
+					<l type="ItemSingle" inFront="false" leftArmInFront="true" leftBehindItem="false" rightArmInFront="false" rightBehindItem="false" dir="D4" useFlipped="false">
+						<animation aid="rifle1-4"/>
+					</l>
+					<l type="ItemSingle" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" dir="D6" useFlipped="false">
+						<animation aid="rifle1-6"/>
+					</l>
+					<l type="ItemSingle" inFront="false" leftArmInFront="false" leftBehindItem="false" rightArmInFront="false" rightBehindItem="false" dir="D7" useFlipped="false">
+						<animation aid="rifle1-7"/>
+					</l>
+					<l type="ItemSingle" inFront="false" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" dir="D8" useFlipped="false">
+						<animation aid="rifle1-8"/>
+					</l>
+					<l type="ItemSingle" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" dir="D9" useFlipped="false">
+						<animation aid="rifle1-9"/>
+					</l>
+				</weaponAnims>
+				<projectile aid="smallProjectile2"/>
+				<hit aid="2explosionWallhit2"/>
+				<audio noise="10.0">
+					<audio auid="990"/>
+				</audio>
+				<bulletEffect effect="755"/>
+				<light skipCenter="false" powerTier="None" color="537080fe">
+					<offset x="0" y="0"/>
+					<flood distance="6" brightness="300"/>
+				</light>
+				<damageTypes>
+					<l type="Person" damageType="Bullet">
+						<level min="6" max="8"/>
+					</l>
+					<l type="Structure" damageTier="HeavyFurniture"/>
+				</damageTypes>
+				<positions>
+					<l offX="-18" offY="22" direction="D1"/>
+					<l offX="-6" offY="17" direction="D2"/>
+					<l offX="11" offY="18" direction="D3"/>
+					<l offX="18" offY="26" direction="D6"/>
+					<l offX="17" offY="32" direction="D9"/>
+					<l offX="4" offY="35" direction="D8"/>
+					<l offX="-14" offY="37" direction="D7"/>
+					<l offX="-16" offY="27" direction="D4"/>
+				</positions>
+				<bulletEffectPos>
+					<l offX="8" offY="4" direction="D1"/>
+					<l offX="0" offY="4" direction="D2"/>
+					<l offX="-6" offY="4" direction="D3"/>
+					<l offX="-8" offY="3" direction="D6"/>
+					<l offX="-6" offY="-1" direction="D9"/>
+					<l offX="0" offY="-4" direction="D8"/>
+					<l offX="6" offY="-1" direction="D7"/>
+					<l offX="8" offY="1" direction="D4"/>
+				</bulletEffectPos>
+				<muzzle instance="10_AllMuzzles_muzzle1"/>
+			</weapon>
+			<backPackItem id="747"/>
+		</item>
+	</Item>
+</data>
