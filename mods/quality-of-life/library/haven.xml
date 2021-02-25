@@ -1,0 +1,58 @@
+<data>
+	<Element>
+		<me _name="Ceiling Light" mid="906000" ec="4" costGroup="875" offsetRot="R0" nonSymmetrical="false" alternateY="false">
+			<data>
+				<l type="Object" eid="1" gridOffX="0" gridOffY="0" layer="0">
+					<element id="0" userTogglable="false" renderOnFloor="false" walkGridCost="1" lightValue="High">
+						<definedStates>
+							<l state="Standby" playAnimation="false">
+								<r0 aid="floorDeco1" flx="false"/>
+								<r90 aid="null" flx="false"/>
+								<r180 aid="floorDeco1" flx="false"/>
+								<r270 aid="null" flx="false"/>
+								<light skipCenter="false" powerTier="Decorative" color="03bfa0ff">
+									<second color="468076ff" ratio="0.25" dimming="100"/>
+									<flood distance="5" brightness="400">
+										<lerpBrightness time="4.0" split="0.5" deadTime="0.25" min="400" max="350"/>
+									</flood>
+								</light>
+							</l>
+							<l state="NoPowerOrError" playAnimation="false">
+								<r0 aid="floorDeco1" flx="false"/>
+								<r90 aid="null" flx="false"/>
+								<r180 aid="floorDeco1" flx="false"/>
+								<r270 aid="null" flx="false"/>
+							</l>
+						</definedStates>
+						<additionaFullLit x="0" y="0" mirX="0" mirY="0" atNoPower="false" atStandby="true" atInuse="true">
+							<r0 aid="floorDeco1" flx="false"/>
+							<r90 aid="null" flx="false"/>
+							<r180 aid="floorDeco1" flx="false"/>
+							<r270 aid="null" flx="false"/>
+						</additionaFullLit>
+						<features addFacilityIcons="true" noPressureDmg="false" normalState="true" produceInNormal="false" inUseState="true"/>
+						<commonPower/>
+					</element>
+				</l>
+			</data>
+			<linked>
+				<l id="907" eid="4" gridOffX="0" gridOffY="0" rot="R0" layer="0" damageGroup="0"/>
+			</linked>
+			<events/>
+			<objectInfo placeInMenu="50" disableRotation="false" disableBuildTest="false" buildInstant="false" disableAirlockTest="false" debugOnly="false" viewMode="Normal" systemPoints="0">
+				<cu>
+					<groups>
+						<l rep="875" buildTools="50">
+							<customPrice/>
+						</l>
+					</groups>
+				</cu>
+				<name tid="461000"/>
+				<desc tid="462"/>
+				<guiIcon aid="floor1white"/>
+				<subCat id="1506"/>
+				<difficultyLevel skill="Construction" level="1"/>
+			</objectInfo>
+		</me>
+	</Element>
+</data>

@@ -1,0 +1,19 @@
+<mod>
+    <name>Quality of Life</name>
+    <description>"Put the lights on the ceiling you say?"
+
+________________________________________________________________________________________________________________________
+
+Adds ceiling lights, because lamps are pretty inconvenient in the middle of a narrow spaceship corridor.
+
+________________________________________________________________________________________________________________________
+
+Created 2021 by Frederoo for Game-Version Alpha 0.11.0.
+________________________________________________________________________________________________________________________
+
+    </description>
+    <minimumLoaderVersion>0.0.1</minimumLoaderVersion>
+    <gameVersions>
+        <v>0.11.0</v>
+    </gameVersions>
+</mod>
